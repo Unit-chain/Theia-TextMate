@@ -2,7 +2,9 @@
   "name": "Theia",
   "displayName": "Theia",
   "description": "Theia Programming language",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "publisher": "Theia",
+  "icon": "images/1.png",
   "engines": {
     "vscode": "^1.80.0"
   },
@@ -21,5 +23,9 @@
       "scopeName": "source.th",
       "path": "./syntaxes/theia.tmLanguage.json"
     }]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Unit-chain/Theia"
   }
 }
